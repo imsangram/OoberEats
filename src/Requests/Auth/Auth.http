@@ -1,0 +1,21 @@
+@host=https://localhost:7031
+
+### Login
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "sangram@test.com",
+    "password": "!Abcd1234"
+}
+
+###  Register
+POST https://localhost:7031/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "Sangram",
+    "lastName": "N",
+    "email": "sangram@test.com",
+    "password": "!Abcd1234"
+}

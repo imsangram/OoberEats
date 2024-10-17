@@ -5,23 +5,20 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63FAADE6-ABF1-41A6-B792-0AE658F97FBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OoberEats.Api", "src\OoberEats.Api\OoberEats.Api.csproj", "{E4ED4AD3-7209-483B-99F7-24348261B902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OoberEats.Api", "src\OoberEats.Api\OoberEats.Api.csproj", "{E4ED4AD3-7209-483B-99F7-24348261B902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OoberEats.Application", "src\OoberEats.Application\OoberEats.Application.csproj", "{75065A35-0F2F-4CAF-9F09-E0D0209F2501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OoberEats.Application", "src\OoberEats.Application\OoberEats.Application.csproj", "{75065A35-0F2F-4CAF-9F09-E0D0209F2501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OoberEats.Contracts", "src\OoberEats.Contracts\OoberEats.Contracts.csproj", "{FCFC085D-89DB-46D3-83B5-C7F4844C91E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OoberEats.Contracts", "src\OoberEats.Contracts\OoberEats.Contracts.csproj", "{FCFC085D-89DB-46D3-83B5-C7F4844C91E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OoberEats.Domain", "src\OoberEats.Domain\OoberEats.Domain.csproj", "{32842DB6-307C-48AA-9EF4-AE85B13E5A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OoberEats.Domain", "src\OoberEats.Domain\OoberEats.Domain.csproj", "{32842DB6-307C-48AA-9EF4-AE85B13E5A40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OoberEats.Infrastucture", "src\OoberEats.Infrastucture\OoberEats.Infrastucture.csproj", "{5ED5263F-40FE-4397-9ACF-27063D988587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OoberEats.Infrastucture", "src\OoberEats.Infrastucture\OoberEats.Infrastucture.csproj", "{5ED5263F-40FE-4397-9ACF-27063D988587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E4ED4AD3-7209-483B-99F7-24348261B902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,6 +41,9 @@ Global
 		{5ED5263F-40FE-4397-9ACF-27063D988587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED5263F-40FE-4397-9ACF-27063D988587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED5263F-40FE-4397-9ACF-27063D988587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E4ED4AD3-7209-483B-99F7-24348261B902} = {63FAADE6-ABF1-41A6-B792-0AE658F97FBE}
